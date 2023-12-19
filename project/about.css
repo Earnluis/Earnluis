@@ -1,0 +1,146 @@
+body{
+    background-image: url(wp7148939.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.background{
+    width: 100%;
+    height: 900px;
+    
+    
+}
+.aboutme-container{
+    width: 90%;
+    height: 450px;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 10px;
+    transform: translate(-50%,-50%);
+}
+.aboutme-text{
+    width: 60%;
+    height: auto;
+    margin: auto;
+    color: white;
+    font-size: 20px;
+    margin-left: 0px;
+    backdrop-filter: blur(30px);
+}
+.aboutme-photo{
+    width: auto;
+    height: auto;
+    margin: auto;
+    border-radius: 100%;
+    margin-right: 20px;
+    border-radius: 20px;
+    margin-left: 100px;
+    
+}
+
+header{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 58px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0%;
+    font-size: 20px;
+    
+}
+
+
+header * {
+    display: inline;
+}
+
+.a-image{
+    position: absolute;
+    top: -9%;
+    height: 60px;
+    width: 60px;
+}
+
+.aimage{
+    margin-right: 10px;
+    margin-left: 10px;  
+}
+
+header li {
+    margin: 20px;
+    height: 50px;
+}
+
+header li a {
+    color: rgb(228, 118, 195), 0, 0;
+    text-decoration: none;
+}
+
+header li a:hover{
+    scale: 1.12;
+    transition: 1s;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.buttons{
+    margin-right: 0px;
+}
+
+
+
+button:hover{
+    scale: 1.12;
+    transition: 1s;
+
+}
+
+
+img{
+    width: auto;
+    height: 450px;
+    border-radius: 10px;
+}
+.moto{
+    margin-left: 10px;
+    background: rgb(241, 180, 231);
+    background: linear-gradient(90deg, rgb(170, 110, 189) 33%, rgb(97, 158, 184) 79%);
+    padding: 10px;
+    color: white; 
+    font-size: 10px;
+    font-weight: 400;
+    border-radius: 10px;
+    box-shadow: rgb(255,255,255)
+}
+.right{
+    animation-duration: 1.5s;
+    animation-name:slideright;
+}
+.left{
+    animation-duration: 1.5s;
+    animation-name: slideleft;
+}
+
+@keyframes slideleft{
+    from{
+        transform: translateX(-50%);
+        opacity: 0;
+    }
+}
+@keyframes slideright{
+    from{
+        transform: translatex(50%);
+        opacity: 0;
+    }
+}
+.moto{
+    font-size: 15px;
+}
